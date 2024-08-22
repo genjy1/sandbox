@@ -17,7 +17,6 @@ const notify = () => {
   <ul class="links__list">
     <li>
       <a href="https://disk.yandex.ru/d/jSPLQX0kP1HO8A">Моды</a>
-      <iframe src="https://disk.yandex.ru/d/jSPLQX0kP1HO8A" frameborder="0"></iframe>
     </li>
     <li>
       <button @click="notify($event), copy($event), logClipboard($event)">
